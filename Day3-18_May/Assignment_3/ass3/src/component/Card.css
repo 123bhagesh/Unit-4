@@ -1,0 +1,61 @@
+.container{
+    width: 600px;
+    /* height: 250px; */
+    box-sizing: border-box;
+    padding: 35px 33px;
+    /* background-color: yellow; */
+    justify-content: left;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.topDiv{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.topDiv>p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.amazonCol{
+    background-color: rgb(255,165,0);
+}
+.appleCol{
+    background-color: rgb(245,245,245);
+}
+img{
+    width: 65px;
+}
+button{
+    font-size: 18px;
+    padding: 8px 10px;
+    color: white;
+    background-color: black;
+}
+.midDiv{
+    justify-content: left;
+    text-align: left;
+}
+.midDiv>p{
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.botDiv{
+    display: flex;
+    height: 30px;
+    
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.botDiv>p{
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.botDiv>i{
+    margin-right: 5px;
+}
