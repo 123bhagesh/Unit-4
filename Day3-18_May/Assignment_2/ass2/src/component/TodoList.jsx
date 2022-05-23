@@ -6,10 +6,11 @@ export const TodoList = ({todos}) => {
     <div className='Todolist'>
       <h2>Todo List</h2>
       <div>
-          {todos.map((todo) =>{
-              return <div className='list'>{todo}</div> 
+          {todos.map((item) =>{
+              return <div className='list'>{item}</div> 
           })}
       </div>
+      
     </div>
   )
 }

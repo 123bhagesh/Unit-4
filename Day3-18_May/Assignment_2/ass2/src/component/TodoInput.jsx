@@ -4,6 +4,13 @@ import './Todoinput.css'
 
 export const TodoInput = ({addTodo}) => {
     const [value, setValue] = useState("")
+    // const [todos, setTodos] = useState([])
+    
+    // const handelDelet =(id)=>{
+    //   const newTodo = 
+    // }
+
+
     return (
       <div className='Todoinput'>
       <input type="text" value = {value}
@@ -12,7 +19,7 @@ export const TodoInput = ({addTodo}) => {
       }}
         />
         <button onClick={() => {
-        //   setTodos([...todos, {id: Date.now(), value: value}])
+          // setTodos([...todos, {id: Date.now(), value: value}])
           addTodo(value)
           setValue("");
          }}>
