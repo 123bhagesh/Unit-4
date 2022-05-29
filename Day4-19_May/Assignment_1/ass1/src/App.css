@@ -21,7 +21,7 @@ body {
   box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
 }
 
-.container {
+.Row jc-center {
   position: relative;
   max-width: 1200px;
   min-width: 1200px;
@@ -57,7 +57,7 @@ body {
   background: #3d4152;
 }
 
-.state {
+.tactoe {
   padding-left: 10px;
 }
 

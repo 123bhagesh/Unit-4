@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App-header{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #131A28;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.Row{
+  display: flex;
+  flex-direction: row;
+}
+
+.Column{
+  display: flex;
+  flex-direction: column;
+}
+
+.square{
+  min-width: 20vh;
+  min-height: 20vh;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  color: #f0ff4d;
+  font-weight: 30px;
+}
+
+jc-center{
+  justify-content: center;
+}
+
+.Bottom-right{
+  border-right: 15px solid  #25ff99 ;
+  border-bottom: 15px solid  #25ff99  ;
+}
+
+.B-bottom{
+  border-bottom: 15px solid  #25ff99  ;
+}
+
+.b-right{
+  border-right: 15px solid  #25ff99  ;
+}
+
+.clear-button{
+  width: max-content;
+  margin: 40px auto 10px auto;
+  padding: 8px 20px;
+  font-size: 19px;
+  font-weight: 700;
+}
+.clear-button:hover{
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}

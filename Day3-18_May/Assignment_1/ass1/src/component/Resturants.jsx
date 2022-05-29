@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Resturants = (props) => {
   return (
-    <div className="container divider">
+    <div className="Row jc-center divider">
     <div className="cards">
          {props.reust.map((reust) => (
             <div key={reust.id} className="card">

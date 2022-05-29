@@ -3,7 +3,7 @@ import "./Card.css"
 
 export const Card = (props) => {
   return (
-    <div className={`container ${props.bgcolor}`}>
+    <div className={`Row jc-center ${props.bgcolor}`}>
       
         <div className='topDiv'>
             <p>{props.date}</p>

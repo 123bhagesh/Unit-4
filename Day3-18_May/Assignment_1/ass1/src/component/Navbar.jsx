@@ -4,11 +4,11 @@ import logo from "../assets/logo.svg"
 const Navbar = () => {
   return (
     <section className="navbar">
-    <div className="container">
+    <div className="Row jc-center">
         <img className="logo" src={logo}/>
         <div className="location">
             <span className="city"> Pune</span>
-            <span className="state">Maharashtra, India</span>
+            <span className="tactoe">Maharashtra, India</span>
         </div>
         <div className="navbar-options">
             <div className="navbar-option">

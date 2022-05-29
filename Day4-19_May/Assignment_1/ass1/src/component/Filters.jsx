@@ -2,7 +2,7 @@ import React from 'react'
 
 const Filters = ({filters,currentFilterBy,updateFilter}) => {
   return (
-    <div className="container restaurants">
+    <div className="Row jc-center restaurants">
     <h1>50 restaurants</h1>
     <div className="restaurant-options">
 

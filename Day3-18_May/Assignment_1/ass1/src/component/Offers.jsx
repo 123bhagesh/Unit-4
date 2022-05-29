@@ -3,7 +3,7 @@ import React from 'react'
 export const Offers = (props) => {
   return (
     <section className="offers">
-    <div className="container">
+    <div className="Row jc-center">
         {props.offers.map((offer,index) =>(
         <img key={index} className="offer" src={offer}/>
         ))}
