@@ -1,24 +1,54 @@
 import logo from './logo.svg';
 import './App.css';
-import {Box,Heading,ButtonGroup,Button, Flex, Spacer } from '@chakra-ui/react'
+import {
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+  Input,
+  
+} from '@chakra-ui/react'
+import { Button, ButtonGroup } from '@chakra-ui/react'
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor:"rgb(240, 246, 247)"}} >
+    <div className="App" style={{backgroundColor:"rgb(250, 246, 247)", margin:'auto', textAlign:"center"}} >
 
-<Flex minWidth='max-content' alignItems='center' gap='2' display='grid' width='200px' backgroundColor="white">
-  <Box p='2'>
-    <Heading size='md' margin-left='50px' >Logo</Heading>
-  </Box>
-  <Spacer />
-  <ButtonGroup gap='2' display='grid' backgroundColor='white' color='black'>
-    <Button color='black' background='white' colorScheme='teal'>Home</Button>
-    <Button color='black' background='white' colorScheme='teal'>Trending</Button>
-    <Button color='black' background='white' colorScheme='teal'>Explore</Button>
-    <Button color='black' background='white' colorScheme='teal'>Favourites</Button>
-    <Button color='black' background='white' colorScheme='teal'>Seeting</Button>
-  </ButtonGroup>
-</Flex>
+        
+          <div>
+              <div><h1>Payment Detail</h1></div>
+              <div>
+              <FormControl >
+                <FormLabel htmlFor='email'>Email address</FormLabel>
+                <Input id='email' type='email' placeholder='Enter Email...' style={{ }}/>
+              </FormControl>
+
+              <FormControl>
+                <FormLabel htmlFor='number'>Card Number</FormLabel>
+                <Input id='email' type='number' placeholder='Enter Number...' />
+              </FormControl>
+              </div>
+              <div >
+        
+                <FormControl>
+                  <FormLabel htmlFor='number'>Expiry Month</FormLabel>
+                  <Input id='email' type='month' placeholder='Month...'/>
+                </FormControl>
+
+                <FormControl>
+                  <FormLabel htmlFor='number'>Expiry year</FormLabel>
+                  <Input id='email' type='year' placeholder='Year...' />
+                </FormControl>
+
+                <FormControl>
+                  <FormLabel htmlFor='number'>CVC</FormLabel>
+                  <Input id='email' type='number' placeholder='CVC...' />
+                </FormControl>
+
+              </div>
+              <div><h1>Payment amount: 1250</h1></div>
+              <Button colorScheme='pink' marginTop='10px' >Pay</Button>
+            </div>
     </div>
   );
 }
